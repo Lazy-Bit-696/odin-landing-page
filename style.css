@@ -1,0 +1,12 @@
+body {
+    font-size: 18px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    list-style-type: none;
+}
