@@ -98,6 +98,21 @@ h2 {
     text-align: end;
 }
 
+.box {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box .head {
+    color: #f9faf8;
+    font-size: 24px;
+}
+.box button {
+    border: 2px solid #f9faf8;
+}
 
 
 footer {
