@@ -77,7 +77,6 @@ h2 {
 .info-content {
     display: flex;
     justify-content: space-evenly;
-    gap: 20px;
 }
 
 .info-box {
