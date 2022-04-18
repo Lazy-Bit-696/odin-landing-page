@@ -127,3 +127,12 @@ footer {
     padding: 50px 100px;
     border-radius: 10px;
 }
+
+.quote {
+    padding: 50px 300px 30px 300px;
+}
+
+.quote-by {
+    margin: 0;
+    padding: 0;
+}
