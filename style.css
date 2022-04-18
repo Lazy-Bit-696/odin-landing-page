@@ -141,3 +141,21 @@ footer {
 .info {
     padding: 0px 250px 100px 250px;
 }
+
+.web-awesome{
+    padding: 200px;
+    gap: 20px;
+}
+.text-part h1{
+    margin: 0;
+    padding: 0;
+}
+
+.image-part {
+    background-color: #58606d;
+    width: 900px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
