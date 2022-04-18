@@ -157,3 +157,12 @@ footer {
     align-items: center;
     justify-content: center;
 }
+
+header p {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+header {
+    padding: 0 200px;
+}
