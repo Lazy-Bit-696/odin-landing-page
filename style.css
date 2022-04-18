@@ -55,7 +55,7 @@ button {
     color: #f9faf8;
     font-weight: 800;
     border-radius: 5px;
-    padding: 5px 15px;
+    padding: 10px 40px;
     border: 0;
 }
 
@@ -115,9 +115,7 @@ h2 {
 }
 .box button {
     border: 2px solid #f9faf8;
-    padding: 10px 40px;
 }
-
 
 footer {
     text-align: center;   
