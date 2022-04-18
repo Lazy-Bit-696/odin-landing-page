@@ -64,6 +64,7 @@ h2 {
     font-weight: 800;
     color: #1f2937;
     text-align: center;
+    padding: 20px;
 }
 
 .info-img {
@@ -135,4 +136,8 @@ footer {
 .quote-by {
     margin: 0;
     padding: 0;
+}
+
+.info {
+    padding: 0px 250px 100px 250px;
 }
