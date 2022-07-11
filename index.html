@@ -8,77 +8,71 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>
-      <p>Header Logo</p>
-      <ul>
-        <li>
-          <a href=""> header link one </a>
-        </li>
-        <li>
-          <a href="">header link two</a>
-        </li>
-        <li>
-          <a href="">header link three</a>
-        </li>
+    <nav class="navbar">
+      <div class="logo">
+        <h2>Header Logo</h2>
+      </div>
+      <ul class="links">
+        <li><a href="#">header link one</a></li>
+        <li><a href="#">header link two</a></li>
+        <li><a href="#">header link three</a></li>
       </ul>
+    </nav>
+    <header class="header">
+      <div class="container">
+        <h1>This website is awesome</h1>
+        <p>
+          This website has some subtext that goes here under the main title.
+          It's a smaller font and the color is lower contrast
+        </p>
+        <button>Sign up</button>
+      </div>
+      <div class="image">
+        <p>this is a placeholder for an image</p>
+      </div>
     </header>
     <main>
-      <article class="web-awesome">
-        <section class="text-part">
-          <h1>This website is awesome</h1>
-          <p>
-            This website has some subtext that goes here under the main title.
-            It's a smaller font and the color is lower contrast
-          </p>
-          <button>Sign up</button>
-        </section>
-        <section class="image-part">
-          <p>this is a placeholder for an image</p>
-        </section>
-      </article>
-      <article class="info">
-        <h2>Some random information</h2>
-        <section class="info-content">
-          <section class="info-box">
-            <section class="info-img"></section>
+      <section class="info">
+        <h3>Some Random information</h3>
+        <div class="container">
+          <div class="item">
+            <div class="box"></div>
             <p>this is some subtext under an illustration or image</p>
-          </section>
-          <section class="info-box">
-            <section class="info-img"></section>
+          </div>
+          <div class="item">
+            <div class="box"></div>
             <p>this is some subtext under an illustration or image</p>
-          </section>
-          <section class="info-box">
-            <section class="info-img"></section>
+          </div>
+          <div class="item">
+            <div class="box"></div>
             <p>this is some subtext under an illustration or image</p>
-          </section>
-          <section class="info-box">
-            <section class="info-img"></section>
+          </div>
+          <div class="item">
+            <div class="box"></div>
             <p>this is some subtext under an illustration or image</p>
-          </section>
-        </section>
-      </article>
-      <article class="quote">
-        <p>
-          This is an inspiring quote, or a testimonal from a customer. Maybe
-          it's just filling up space, or maybe people will actually read it. Who
+          </div>
+        </div>
+      </section>
+      <section class="quote-box">
+        <p class="quote">
+          This is an inspiration quote, or a testimonial from a customer. Maybe
+          it's just filing up space, or maybe people will actually read it. Who
           knows? All I know is that it looks nice.
         </p>
-        <p class="quote-by">-Thor, God of Thunder</p>
-      </article>
-      <article class="signup">
-        <section class="box">
-          <section>
-            <p class="head">Call to action! It's time!</p>
+        <p class="author">-Thor, God of Thunder</p>
+      </section>
+      <section class="box-container">
+        <div class="blue-box">
+          <div>
+            <p class="call">Call to action! It's time!</p>
             <p>
-              Sign up for our product by clicking that button right over there!!
+              Sign up for our product by clicking that button right over there!
             </p>
-          </section>
+          </div>
           <button>Sign up</button>
-        </section>
-      </article>
+        </div>
+      </section>
     </main>
-    <footer>
-      <p>Copyright &copy; The Odin Project 2021</p>
-    </footer>
+    <footer>Copyright &copy; The Odin Project 2021</footer>
   </body>
 </html>
